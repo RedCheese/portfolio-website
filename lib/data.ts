@@ -28,6 +28,10 @@ export const links = [
     hash: "#experience",
   },
   {
+    name: "Certificates",
+    hash: "#certificates",
+  },
+  {
     name: "Contact",
     hash: "#contact",
   },
@@ -153,4 +157,12 @@ export const skillsData = [
   "Inkscape",
   "Photoshop",
   "Excel",
+] as const;
+
+export const certificateImages = [
+  { imgUrl: "/images/certificates/certificate-1.png", alt: "certificate-1" },
+  { imgUrl: "/images/certificates/certificate-2.png", alt: "certificate-2" },
+  { imgUrl: "/images/certificates/certificate-3.png", alt: "certificate-3" },
+  { imgUrl: "/images/certificates/certificate-4.png", alt: "certificate-4" },
+  { imgUrl: "/images/certificates/certificate-5.png", alt: "certificate-5" },
 ] as const;

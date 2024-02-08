@@ -135,6 +135,21 @@ export default function Intro() {
         >
           <FaGithubSquare />
         </a>
+
+        <a
+          className="bg-white p-3 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer border border-black/10 dark:bg-white/10 dark:text-white/60"
+          href="https://www.balandabros.com/"
+          target="_blank"
+        >
+          <Image
+            src="/BBLogoInkscape.png"
+            alt="BB Icon"
+            width={192}
+            height={192}
+            priority={true}
+            className="h-8 w-8 rounded-full"
+          />
+        </a>
       </motion.div>
     </section>
   );
