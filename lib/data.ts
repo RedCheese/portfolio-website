@@ -24,12 +24,12 @@ export const links = [
     hash: "#skills",
   },
   {
-    name: "Experience",
-    hash: "#experience",
-  },
-  {
     name: "Certificates",
     hash: "#certificates",
+  },
+  {
+    name: "Experience",
+    hash: "#experience",
   },
   {
     name: "Contact",
@@ -103,8 +103,8 @@ export const projectsAltData = [
     description: "A visually interesting camping trip site",
     image: "/images/projects/Camp_Travel.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/RedCheese/Travel-App",
+    previewUrl: "https://travel-app-henna-three.vercel.app/",
   },
   {
     id: 2,
@@ -113,8 +113,8 @@ export const projectsAltData = [
       "An app showing an example of a dashboard with multiple graphs",
     image: "/images/projects/Dashboard.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "https://mattrgb-syncfusion-dashboard.netlify.app/",
+    gitUrl: "https://github.com/RedCheese/Dashboard",
+    previewUrl: "https://dashboard-pi-nine-55.vercel.app/",
   },
   {
     id: 3,
@@ -122,18 +122,27 @@ export const projectsAltData = [
     description: "An app that has functionality to send support tickets",
     image: "/images/projects/Ticketing.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/RedCheese/Ticket-App",
     previewUrl: "/",
   },
   {
     id: 4,
     title: "Pricewise",
     description:
-      "A project that sues webscrapping to get the best prices from Amazon products",
+      "A project that uses webscrapping to get the best prices from Amazon products",
     image: "/images/projects/Webscrapper.png",
     tag: ["All", "Mobile"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/RedCheese/WebScrapping",
     previewUrl: "/",
+  },
+  {
+    id: 5,
+    title: "Weather App",
+    description: "A Project to display the weather",
+    image: "/images/projects/weatherapp.png",
+    tag: ["All", "Mobile"],
+    gitUrl: "https://github.com/RedCheese/WebScrapping",
+    previewUrl: "https://weather-app-eight-xi-10.vercel.app/",
   },
 ] as const;
 
