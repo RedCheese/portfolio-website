@@ -13,7 +13,7 @@ export default function ProjectsAlt() {
     animate: { y: 0, opacity: 1 },
   };
   return (
-    <section className="scroll-mt-28 mb-28">
+    <section ref={ref} id="projects" className="scroll-mt-28 mb-28">
       <SectionHeading>My projects</SectionHeading>
       <ul ref={ref} className="grid md:grid-cols-2 gap-8 md:gap-12">
         {projectsAltData.map((project, index) => (
