@@ -144,6 +144,15 @@ export const projectsAltData = [
     gitUrl: "https://github.com/RedCheese/WebScrapping",
     previewUrl: "https://weather-app-eight-xi-10.vercel.app/",
   },
+  {
+    id: 6,
+    title: "Top UK Youtubers Analysis",
+    description: "A data analysis project using Python and Power BI",
+    image: "/images/projects/uk_youtubers_dashboard.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/RedCheese/top_uk_youtuners_2024",
+    previewUrl: "https://redcheese.github.io/top_uk_youtuners_2024/",
+  },
 ] as const;
 
 export const skillsData = [
